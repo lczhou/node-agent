@@ -1,7 +1,7 @@
 {
-  "name": "@thorgene/node-agent-test",
+  "name": "@tars/node-agent",
   "preferGlobal": "true",
-  "version": "1.0.0-rc1",
+  "version": "10.0.1",
   "description": "TARS 框架中 Node.js 程序启动器，提供生产环境所需的服务特性",
   "author": {
     "name": "Superzheng",
@@ -35,7 +35,10 @@
     "read-installed" : "4.0.3",
     "on-finished" : "2.1.1",
     "event-loop-lag" : "1.1.0",
-    "pidusage" : "1.0.4"
+    "pidusage" : "1.0.4",
+    "co": "4.6.0",
+    "get-port-sync": "1.0.0"
+
   },
   "bin": {
     "node-agent": "./bin/node-agent"
